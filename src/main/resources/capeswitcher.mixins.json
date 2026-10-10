@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "package": "com.example.capeswitcher.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "SkinCustomizationScreenMixin",
+    "AbstractClientPlayerMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "capeswitcher",
+  "version": "${version}",
+  "name": "Cape Switcher",
+  "description": "Switch between the capes you own. Uses Mojang's official API, so everyone sees your new cape.",
+  "authors": ["You"],
+  "license": "MIT",
+  "environment": "client",
+  "mixins": ["capeswitcher.mixins.json"],
+  "entrypoints": {
+    "client": ["com.example.capeswitcher.CapeSwitcherClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": "~26.1.2",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
